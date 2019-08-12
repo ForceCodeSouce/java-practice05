@@ -7,7 +7,7 @@ public class MyStackException extends Exception {
 		super( "MyStackException Occurs" );
 	}
 	
-	public MyStackException( String message ) {
+	public MyStackException( String message ){
 		super( message );
 	}
 }

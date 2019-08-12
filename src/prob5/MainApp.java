@@ -2,9 +2,16 @@ package prob5;
 
 public class MainApp {
 
-	public static void main(String[] args) {
+	//동적 Stack 
+	//배열 공간이 다 차면 자동으로 늘려줘야 한다.
+	//배열 기반으로 사용!!!
+	
+	//예외처리
+	//Throw !!!
+	public static void main(String[] args) throws Exception {
 		try {
 			MyStack stack = new MyStack(3);
+			
 			stack.push("Hello");
 			stack.push("World");
 			stack.push("!!!");
